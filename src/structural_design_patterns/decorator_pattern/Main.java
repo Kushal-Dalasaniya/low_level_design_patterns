@@ -3,14 +3,14 @@ package structural_design_patterns.decorator_pattern;
  * The decorator pattern is utilized here to enhance the functionality of objects without modifying their code directly.
  * In the provided example, we already have two features or behaviors represented by CloudStream, CompressedCloudStream,
  * and EncryptedCloudStream. Now, if we need to add another behavior without altering the existing code,
- * the decorator pattern becomes invaluable.<br><br>
- * 
+ * the decorator pattern becomes invaluable.
+ * <p>
  * By implementing decorators such as CompressedCloudStream and EncryptedCloudStream, we can dynamically add additional
  * functionalities to the base CloudStream object at runtime. This allows for a flexible and modular approach
- * to extending the behavior of objects without the need for modifying their underlying implementation.<br><br>
- * 
+ * to extending the behavior of objects without the need for modifying their underlying implementation.
+ * <p>
  * Therefore, the decorator pattern empowers us to incorporate new features seamlessly and maintain the open/closed
- * principle, ensuring that our code remains easily extensible and resilient to changes.<br><br>
+ * principle, ensuring that our code remains easily extensible and resilient to changes.
  */
 
 public class Main {
